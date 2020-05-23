@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<a th:href="@{/me(__(${name!=null?'name=${name}':','})__,__(${age!=null?'age=${age}':','})__)}">show profile!!</a>
+</body>
+</html>
